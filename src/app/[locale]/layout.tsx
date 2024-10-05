@@ -33,8 +33,10 @@ export async function generateMetadata({ params }: { params: any }): Promise<Met
       template: `%s - ${appConfig.appRootDomain}`,
     },
     description: t('frontend.meta.default.description'),
-    alternates: createAlternates({ headers: headersList }),
-    canonical: canonicalUrl,
+    alternates: {
+      ...createAlternates({ headers: headersList }),
+      canonical: canonicalUrl,
+    },
   };
 }
 
