@@ -9,7 +9,7 @@ export const appConfig = {
   appRootDomain: "favicon.ee",
   appName: "Favicon Extractor",
   appDescription: "FaviconExtractor",
-  gaId: process.env.NEXT_PUBLIC_GA_ID || "GTM-W9V29ZZN",
+  gaId: process.env.NEXT_PUBLIC_GA_ID || "G-8J24QJPE0N",
   i18n: {
     locales,
     defaultLocale,
