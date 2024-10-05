@@ -35,9 +35,9 @@ export function Header() {
       
       <LocaleSwitch />
       <ModeToggle /> 
-      <a href="https://github.com/seadfeng/favicon-downloader" className="flex flex-shrink-0">
+      {/*<a href="https://github.com/seadfeng/favicon-downloader" className="flex flex-shrink-0">
         <img title="Favicon Downloader Github" alt="Favicon Downloader Github" height={20} className="h-[20px]" src="https://img.shields.io/github/stars/seadfeng/favicon-downloader?style=social" />
-      </a>
+      </a>*/}
     </div>
   </header>
   )
