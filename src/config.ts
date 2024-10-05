@@ -5,11 +5,11 @@ const defaultLocale = "en" as const;
 export type LocaleType = typeof locales[number];
 
 export const appConfig = {
-  appDomain: process.env.NODE_ENV === 'development' ? "127.0.0.1:3000" : "www.faviconextractor.com",
-  appRootDomain: "faviconextractor.com",
+  appDomain: process.env.NODE_ENV === 'development' ? "127.0.0.1:3002" : "favicon.ee",
+  appRootDomain: "favicon.ee",
   appName: "Favicon Extractor",
   appDescription: "FaviconExtractor",
-  gaId: process.env.NEXT_PUBLIC_GA_ID || "G-H5ZKZ7KTHT",
+  gaId: process.env.NEXT_PUBLIC_GA_ID || "GTM-W9V29ZZN",
   i18n: {
     locales,
     defaultLocale,
